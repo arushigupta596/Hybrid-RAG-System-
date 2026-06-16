@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap');
+@import "streamdown/styles.css";
+@source "../node_modules/streamdown/dist/*.js";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body { @apply bg-slate-50 text-slate-900 antialiased; }
+  :root {
+    --background: oklch(1 0 0);
+    --foreground: oklch(0.145 0 0);
+    --card: oklch(1 0 0);
+    --card-foreground: oklch(0.145 0 0);
+    --muted: oklch(0.97 0 0);
+    --muted-foreground: oklch(0.556 0 0);
+    --border: oklch(0.922 0 0);
+    --input: oklch(0.922 0 0);
+    --primary: oklch(0.205 0 0);
+    --primary-foreground: oklch(0.985 0 0);
+    --radius: 0.625rem;
+  }
+}
+
+@layer components {
+  .mode-sparse  { @apply bg-blue-50   text-blue-700   border border-blue-200; }
+  .mode-dense   { @apply bg-purple-50 text-purple-700 border border-purple-200; }
+  .mode-hybrid  { @apply bg-emerald-50 text-emerald-700 border border-emerald-200; }
+  .card         { @apply bg-white rounded-xl border border-slate-200 shadow-sm; }
+  .card-hover   { @apply hover:border-slate-300 hover:shadow-md transition-all duration-150; }
+  .btn-primary  { @apply bg-sebi text-white px-4 py-2 rounded-lg font-medium hover:bg-sebi-light hover:text-sebi transition-colors; }
+  .btn-ghost    { @apply text-slate-600 px-3 py-1.5 rounded-lg text-sm hover:bg-slate-100 transition-colors; }
+}

@@ -1,4 +1,5 @@
 import asyncio
+import concurrent.futures
 import time
 
 from fastapi import APIRouter
@@ -15,6 +16,8 @@ from retrieval.reranker import get_reranker
 from retrieval.rrf import reciprocal_rank_fusion
 
 router = APIRouter()
+
+_thread_pool = concurrent.futures.ThreadPoolExecutor(max_workers=4)
 
 
 def _to_chunk_result(doc: dict) -> ChunkResult:
@@ -35,49 +38,54 @@ def _to_chunk_result(doc: dict) -> ChunkResult:
     )
 
 
+def _run_bm25(query: str, filters: dict | None) -> tuple[list[dict], int]:
+    t0 = time.perf_counter()
+    results = bm25_retriever.search(
+        get_es_client(), query, top_k=settings.bm25_top_k, filters=filters
+    )
+    return results, int((time.perf_counter() - t0) * 1000)
+
+
+def _run_vector(query: str, filters: dict | None) -> tuple[list[dict], int]:
+    t0 = time.perf_counter()
+    results = vector_retriever.search(
+        get_qdrant_client(), get_embedder(), query,
+        top_k=settings.vector_top_k, filters=filters,
+    )
+    return results, int((time.perf_counter() - t0) * 1000)
+
+
 @router.post("/query", response_model=QueryResponse)
 async def query_regulations(req: QueryRequest):
     latency = {}
     total_start = time.perf_counter()
+    loop = asyncio.get_event_loop()
 
     bm25_results = []
     vec_results = []
 
     if req.mode == "hybrid":
-        t0 = time.perf_counter()
-        bm25_results = bm25_retriever.search(
-            get_es_client(), req.query, top_k=settings.bm25_top_k, filters=req.filters
-        )
-        latency["bm25"] = int((time.perf_counter() - t0) * 1000)
-
-        t0 = time.perf_counter()
-        vec_results = vector_retriever.search(
-            get_qdrant_client(), get_embedder(), req.query,
-            top_k=settings.vector_top_k, filters=req.filters,
-        )
-        latency["vector"] = int((time.perf_counter() - t0) * 1000)
+        bm25_future = loop.run_in_executor(_thread_pool, _run_bm25, req.query, req.filters)
+        vec_future = loop.run_in_executor(_thread_pool, _run_vector, req.query, req.filters)
+        bm25_results, latency["bm25"] = await bm25_future
+        vec_results, latency["vector"] = await vec_future
     elif req.mode == "sparse":
-        t0 = time.perf_counter()
-        bm25_results = bm25_retriever.search(
-            get_es_client(), req.query, top_k=settings.bm25_top_k, filters=req.filters
+        bm25_results, latency["bm25"] = await loop.run_in_executor(
+            _thread_pool, _run_bm25, req.query, req.filters
         )
-        latency["bm25"] = int((time.perf_counter() - t0) * 1000)
     else:
-        t0 = time.perf_counter()
-        vec_results = vector_retriever.search(
-            get_qdrant_client(), get_embedder(), req.query,
-            top_k=settings.vector_top_k, filters=req.filters,
+        vec_results, latency["vector"] = await loop.run_in_executor(
+            _thread_pool, _run_vector, req.query, req.filters
         )
-        latency["vector"] = int((time.perf_counter() - t0) * 1000)
 
     if req.mode == "hybrid":
-        fused = reciprocal_rank_fusion(bm25_results, vec_results, k=settings.rrf_k, top_k=20)
+        fused = reciprocal_rank_fusion(bm25_results, vec_results, k=settings.rrf_k, top_k=10)
     elif req.mode == "sparse":
-        fused = bm25_results[:20]
+        fused = bm25_results[:10]
         for doc in fused:
             doc["rrf_score"] = doc.get("bm25_score", 0.0)
     else:
-        fused = vec_results[:20]
+        fused = vec_results[:10]
         for doc in fused:
             doc["rrf_score"] = doc.get("vector_score", 0.0)
 

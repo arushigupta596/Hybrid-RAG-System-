@@ -1,0 +1,590 @@
+[
+  {
+    "query_id": "q001",
+    "query": "\"DCBR.CO. BPD. MC.No. 1/12.05.001/2015-16\"",
+    "query_type": "sparse",
+    "relevant_chunk_ids": [
+      "fd5b98b4dc38302c343da692d782ef9d7e01a9d3530ec3caff97a6e88e893a82"
+    ],
+    "relevant_circular_numbers": [
+      "RBI/2015-2016/1 DCBR.CO. BPD. MC.No. 1/12.05.001/2015-16"
+    ],
+    "notes": "Generated from chunk fd5b98b4dc38..."
+  },
+  {
+    "query_id": "q002",
+    "query": "\"Section 68(2) Companies Act 2013 Regulation 4(i) SEBI Buyback of Securities Regulations 2018 permissible capital payment\"",
+    "query_type": "sparse",
+    "relevant_chunk_ids": [
+      "387c2096ef2212fffc3c5373f58bb1bbb4ee3df65c3afe109c3f987c4feecd15"
+    ],
+    "relevant_circular_numbers": [],
+    "notes": "Generated from chunk 387c2096ef22..."
+  },
+  {
+    "query_id": "q003",
+    "query": "\"RBI/2015-2016/233 DGBA.GAD.No. 1636/31.12.010/2015-16\"",
+    "query_type": "sparse",
+    "relevant_chunk_ids": [
+      "210bfa124bb2a336a4ff0c3d0549ac0900884a3799a2b046f9bcbfa3510466f1"
+    ],
+    "relevant_circular_numbers": [
+      "RBI/2015-2016/233 DGBA.GAD.No. 1636/31.12.010/2015-16"
+    ],
+    "notes": "Generated from chunk 210bfa124bb2..."
+  },
+  {
+    "query_id": "q004",
+    "query": "\"RBI/DoR/2026-2027/125\"",
+    "query_type": "sparse",
+    "relevant_chunk_ids": [
+      "58972fa13748646385a98bc3cb6209b52507c0f90ac337518932c6e66b0e9905"
+    ],
+    "relevant_circular_numbers": [
+      "RBI/DoR/2026-2027/125"
+    ],
+    "notes": "Generated from chunk 58972fa13748..."
+  },
+  {
+    "query_id": "q005",
+    "query": "\"DNBR.CC.PD.No. 071/03.10.038/2015-16\"",
+    "query_type": "sparse",
+    "relevant_chunk_ids": [
+      "a6cd0bac26f0fb1fc7a0f0d4b13dfae9c0b28592fcce462fc3b873781761a1bd"
+    ],
+    "relevant_circular_numbers": [
+      "RBI/2015-2016/250 DNBR.CC.PD.No. 071/03.10.038/2015-16"
+    ],
+    "notes": "Generated from chunk a6cd0bac26f0..."
+  },
+  {
+    "query_id": "q006",
+    "query": "\"RBI/2015-2016/256 DBR. AML. No. 7376/14.06.001/2015-16\"",
+    "query_type": "sparse",
+    "relevant_chunk_ids": [
+      "30bdf487d54d57ce54d344d370ba5b5b851c955da735ac3c25b5ef31fbeba9fb"
+    ],
+    "relevant_circular_numbers": [
+      "RBI/2015-2016/256 DBR. AML. No. 7376/14.06.001/2015-16"
+    ],
+    "notes": "Generated from chunk 30bdf487d54d..."
+  },
+  {
+    "query_id": "q007",
+    "query": "\"RBI/2015-2016/76 DBR. No. Dir. BC.11/13.03.00/2015-16\"",
+    "query_type": "sparse",
+    "relevant_chunk_ids": [
+      "8dbde2a93246808f1980fc4774f03311495e89756121098da33169ef117ad27f"
+    ],
+    "relevant_circular_numbers": [
+      "RBI/2015-2016/76 DBR. No. Dir. BC.11/13.03.00/2015-16"
+    ],
+    "notes": "Generated from chunk 8dbde2a93246..."
+  },
+  {
+    "query_id": "q008",
+    "query": "\"audited standalone and consolidated financial statements year ended March 31 2026 unmodified audit opinions April 23 2026 buyback Articles of Association\"",
+    "query_type": "sparse",
+    "relevant_chunk_ids": [
+      "71389b2afbae5392b820adf5aca4c959720bafde753df07cf12df08983caad85"
+    ],
+    "relevant_circular_numbers": [],
+    "notes": "Generated from chunk 71389b2afbae..."
+  },
+  {
+    "query_id": "q009",
+    "query": "\"RBI/2015-2016/62 DCBR.LS.(PCB) MC.No.16/07.01.000/2015-16\"",
+    "query_type": "sparse",
+    "relevant_chunk_ids": [
+      "6b3e9cf76fa8d8d019d3009ce1318e2b5f4830567da4e2156d1486e5c89a91ce"
+    ],
+    "relevant_circular_numbers": [
+      "RBI/2015-2016/62 DCBR.LS.(PCB) MC.No.16/07.01.000/2015-16"
+    ],
+    "notes": "Generated from chunk 6b3e9cf76fa8..."
+  },
+  {
+    "query_id": "q010",
+    "query": "\"Master Circular No. 12/2015-16\" RBI/2015-2016/33",
+    "query_type": "sparse",
+    "relevant_chunk_ids": [
+      "798bd49c52eb31a29adc42404e368b90845c3fefee483a28d315812186b2b102"
+    ],
+    "relevant_circular_numbers": [
+      "RBI/2015-2016/33 Master Circular No. 12/2015-16 (Updated upto October 06, 2015)"
+    ],
+    "notes": "Generated from chunk 798bd49c52eb..."
+  },
+  {
+    "query_id": "q011",
+    "query": "\"RBI/2014-2015/485\" OR \"MPD.BC. 377/07.01.279/2014-15\"",
+    "query_type": "sparse",
+    "relevant_chunk_ids": [
+      "0b84b0f287f196296703bc126fc9a523a79ee8611397e55fedbe099e5eb55529"
+    ],
+    "relevant_circular_numbers": [
+      "RBI/2014-2015/485 REF.No.MPD.BC. 377/07.01.279/2014-15"
+    ],
+    "notes": "Generated from chunk 0b84b0f287f1..."
+  },
+  {
+    "query_id": "q012",
+    "query": "\"RBI/2015-2016/171 DBR.AML.No.3441/14.06.001/2015-16\"",
+    "query_type": "sparse",
+    "relevant_chunk_ids": [
+      "bd44c26b4c958b298421cbc752375769df97bc4d3b7eb8dfcdcf1a645f152975"
+    ],
+    "relevant_circular_numbers": [
+      "RBI/2015-2016/171 DBR.AML.No.3441/14.06.001/2015-16"
+    ],
+    "notes": "Generated from chunk bd44c26b4c95..."
+  },
+  {
+    "query_id": "q013",
+    "query": "\"RBI/2015-2016/59 DBR No.Leg.BC. 21/09.07.006/2015-16\"",
+    "query_type": "sparse",
+    "relevant_chunk_ids": [
+      "4864ab164a4b24f2c2695845ba2c8bb7e2221f6017234b2095d85ea50f0a3535"
+    ],
+    "relevant_circular_numbers": [
+      "RBI/2015-2016/59 DBR No.Leg.BC. 21/09.07.006/2015-16"
+    ],
+    "notes": "Generated from chunk 4864ab164a4b..."
+  },
+  {
+    "query_id": "q014",
+    "query": "\"RBI/2015-2016/54 Master Circular No.7/2015-16\"",
+    "query_type": "sparse",
+    "relevant_chunk_ids": [
+      "33f00b422aee1c772fc448f302d3b6e5bfdc88f0b1b8b2463675e685b36bebd4"
+    ],
+    "relevant_circular_numbers": [
+      "RBI/2015-2016/54 Master Circular No.7/2015-16 (updated as on October 30, 2015)"
+    ],
+    "notes": "Generated from chunk 33f00b422aee..."
+  },
+  {
+    "query_id": "q015",
+    "query": "\"RBI/2015-2016/52 DCM (FNVD) G-4/16.01.05/2015-16\"",
+    "query_type": "sparse",
+    "relevant_chunk_ids": [
+      "d7d7ae16816b87cb488354a837d6b7e6468f1ea34c5353ee270fe65a88860d08"
+    ],
+    "relevant_circular_numbers": [
+      "RBI/2015-2016/52 DCM (FNVD) G- 4/16.01.05/2015-16 (Updated as on September 28, 2"
+    ],
+    "notes": "Generated from chunk d7d7ae16816b..."
+  },
+  {
+    "query_id": "q016",
+    "query": "What verification methods does the Reserve Bank of India use to confirm human users and block bot submissions on its regulatory portal?",
+    "query_type": "dense",
+    "relevant_chunk_ids": [
+      "4eaccc620ff60f9fe88d7883146d8f60c399bc2c9d9fce5842411da59f88e739"
+    ],
+    "relevant_circular_numbers": [
+      "RBI/2015-2016/251 DBR.AML.BC.No.60/14.01.001/2015-16"
+    ],
+    "notes": "Generated from chunk 4eaccc620ff6..."
+  },
+  {
+    "query_id": "q017",
+    "query": "What verification methods does the Reserve Bank of India use to confirm human users accessing their regulatory circulars online?",
+    "query_type": "dense",
+    "relevant_chunk_ids": [
+      "9ca43ee70c3967852c28f74cd67af81e688019e7c3c7f0c3e95d841f927063a6"
+    ],
+    "relevant_circular_numbers": [
+      "RBI/2015-2016/243 DBR.AML.No.6912/14.06.001/2015-16"
+    ],
+    "notes": "Generated from chunk 9ca43ee70c39..."
+  },
+  {
+    "query_id": "q018",
+    "query": "What verification measures does RBI use to confirm human users accessing its circulars and prevent bot submissions on its website?",
+    "query_type": "dense",
+    "relevant_chunk_ids": [
+      "50de572d026833c624f6cd3c92a3e6c72e438e3101573d40aa501208e2b9f5da"
+    ],
+    "relevant_circular_numbers": [
+      "RBI/2015-2016/188 DCM (Plg) No.G-6/1128/10.01.24/2015-16"
+    ],
+    "notes": "Generated from chunk 50de572d0268..."
+  },
+  {
+    "query_id": "q019",
+    "query": "What verification mechanism is used to distinguish between human users and automated bots when accessing regulatory documents?",
+    "query_type": "dense",
+    "relevant_chunk_ids": [
+      "2665e8e8796d46d74d727e23e0caf9517718d189bcbdb31839735fe1b6ac04e0"
+    ],
+    "relevant_circular_numbers": [
+      "RBI/2015-2016/19 DNBR (PD) CC.No.050/03.10.119/2015-16"
+    ],
+    "notes": "Generated from chunk 2665e8e8796d..."
+  },
+  {
+    "query_id": "q020",
+    "query": "What verification mechanism does RBI use to distinguish human users from bots on its regulatory document portal?",
+    "query_type": "dense",
+    "relevant_chunk_ids": [
+      "c42615c5ad39dee76e3f531c5ff38cbe6b3e60c77b90e4123bcc5509316a8d85"
+    ],
+    "relevant_circular_numbers": [
+      "RBI/2015-2016/90 DGBA.GAD.No.3/42.01.034/2015-16"
+    ],
+    "notes": "Generated from chunk c42615c5ad39..."
+  },
+  {
+    "query_id": "q021",
+    "query": "What is the RBI master circular issued in the first half of 2015 regarding banking regulations?",
+    "query_type": "dense",
+    "relevant_chunk_ids": [
+      "d68cf6301cd170a25f96f7b59133ed2030e198c41edf558f1b94014c2c065f19"
+    ],
+    "relevant_circular_numbers": [
+      "RBI/2015-2016/91 Master Circular No.6/2015-16"
+    ],
+    "notes": "Generated from chunk d68cf6301cd1..."
+  },
+  {
+    "query_id": "q022",
+    "query": "What verification methods does the Reserve Bank of India use to distinguish between human users and bots when accessing regulatory circulars online?",
+    "query_type": "dense",
+    "relevant_chunk_ids": [
+      "2e03fb088d4e15399bb5dfab0ce458e95a58e7e31c45ab05dd7902e50c51eea9"
+    ],
+    "relevant_circular_numbers": [
+      "RBI/2015-2016/108 DNBR (PD) CC No. 051/03.10.119/2015-16"
+    ],
+    "notes": "Generated from chunk 2e03fb088d4e..."
+  },
+  {
+    "query_id": "q023",
+    "query": "What verification methods does the Reserve Bank of India use to distinguish between human users and bots when accessing their circulars online?",
+    "query_type": "dense",
+    "relevant_chunk_ids": [
+      "2eb8e1a1e254876da6609a492a84c92b2cc6535b737fca20130afe555be58e64"
+    ],
+    "relevant_circular_numbers": [
+      "RBI/2015-2016/64 FIDD.GSSD.BC.No.05/09.10.01/2015-16"
+    ],
+    "notes": "Generated from chunk 2eb8e1a1e254..."
+  },
+  {
+    "query_id": "q024",
+    "query": "What verification measures does the Reserve Bank of India use to confirm that users accessing its circulars are real people rather than bots?",
+    "query_type": "dense",
+    "relevant_chunk_ids": [
+      "35a6e37816683bd7400d15787baec3ccb45f88dc246dc263d6f4f1240e67674d"
+    ],
+    "relevant_circular_numbers": [
+      "RBI/2015-2016/268 DBR.AML.No.7835/14.06.001/2015-16"
+    ],
+    "notes": "Generated from chunk 35a6e3781668..."
+  },
+  {
+    "query_id": "q025",
+    "query": "What verification challenge is presented to distinguish human users from bots on the RBI circular access page?",
+    "query_type": "dense",
+    "relevant_chunk_ids": [
+      "5761736010b2ba48f30d44eb5b218aff49de3ddf394e4edba879665a0303b09f"
+    ],
+    "relevant_circular_numbers": [
+      "RBI/2015-2016/13 DNBR (PD) CC. No.043/03.10.119/2015-16"
+    ],
+    "notes": "Generated from chunk 5761736010b2..."
+  },
+  {
+    "query_id": "q026",
+    "query": "What verification mechanism does the Reserve Bank of India use to confirm that website visitors are human rather than bots?",
+    "query_type": "dense",
+    "relevant_chunk_ids": [
+      "8733f7c93e6043a573ce5ac8a973fdccd4851d4a0fb0cc956e7da703fb6bbc35"
+    ],
+    "relevant_circular_numbers": [
+      "RBI/2015-2016/102 DBR.FID.FIC.No.4/01.02.00/2015-16"
+    ],
+    "notes": "Generated from chunk 8733f7c93e60..."
+  },
+  {
+    "query_id": "q027",
+    "query": "What is the maximum percentage of net worth that a company is allowed to utilize for a share repurchase program?",
+    "query_type": "dense",
+    "relevant_chunk_ids": [
+      "1b93449d7876894bafb047b382524d47c9f60b2f71e70982ac3d918adb684b7f"
+    ],
+    "relevant_circular_numbers": [],
+    "notes": "Generated from chunk 1b93449d7876..."
+  },
+  {
+    "query_id": "q028",
+    "query": "What verification methods does the Reserve Bank of India use to confirm that users accessing its circulars are real people rather than bots?",
+    "query_type": "dense",
+    "relevant_chunk_ids": [
+      "12b384651ee4b90683b4702c3feace75ff9eb170db7616be121ae4b419ab8b6f"
+    ],
+    "relevant_circular_numbers": [
+      "RBI/2015-2016/120 DBR.No.CID.BC.28 /20.16.056/2015-16"
+    ],
+    "notes": "Generated from chunk 12b384651ee4..."
+  },
+  {
+    "query_id": "q029",
+    "query": "What verification mechanism does the Reserve Bank of India use to distinguish between human users and bots when accessing their circular documents?",
+    "query_type": "dense",
+    "relevant_chunk_ids": [
+      "429d2b36dbdc1048168a738e533953b08bec8aaf14021a962144a3e78a7754ae"
+    ],
+    "relevant_circular_numbers": [
+      "RBI/2015-2016/86 DBR.No.BP.BC. 3/21.01.002/2015-16"
+    ],
+    "notes": "Generated from chunk 429d2b36dbdc..."
+  },
+  {
+    "query_id": "q030",
+    "query": "What are the latest Reserve Bank of India Department of Regulation circulars or notifications issued in mid-2026?",
+    "query_type": "dense",
+    "relevant_chunk_ids": [
+      "7f506f862f42a9f56c20f3203446bbd5a8eda571d18defc378e3c810d6cab75c"
+    ],
+    "relevant_circular_numbers": [
+      "RBI/DoR/2026-2027/126"
+    ],
+    "notes": "Generated from chunk 7f506f862f42..."
+  },
+  {
+    "query_id": "q031",
+    "query": "**Query:** In RBI circular DNBR (PD) CC. No. 060/03.10.119/2015-16 dated July 1, 2015, what regulatory concept governs the prudential norms for NBFCs, and how does the definition of \"Net Owned Fund\" as established in that circular differ from the general accounting concept of net worth in determining the eligibility threshold for non-deposit taking systemically important NBFCs",
+    "query_type": "hybrid",
+    "relevant_chunk_ids": [
+      "7b59ada68d44c5e8341d07294e0bf81cf7079f31127582d7a31a2187248e35fc"
+    ],
+    "relevant_circular_numbers": [
+      "RBI/2015-2016/24 DNBR (PD) CC. No. 060/03.10.119/2015-16"
+    ],
+    "notes": "Generated from chunk 7b59ada68d44..."
+  },
+  {
+    "query_id": "q032",
+    "query": "**Query:** In RBI circular FMRD.DIRD.01/14.01.001/2015-16 dated July 1, 2015, what regulatory framework is established, and how does the concept of \"repo\" as defined therein differ from a collateralized borrowing arrangement in terms of legal transfer of ownership of securities?",
+    "query_type": "hybrid",
+    "relevant_chunk_ids": [
+      "f3b66d57e803b6e40179acb745c0ed4b7ebd6f138945d6f3e864ef98bad8f01c"
+    ],
+    "relevant_circular_numbers": [
+      "RBI/2015-2016/55 FMRD.DIRD. 01/14.01.001/2015-16"
+    ],
+    "notes": "Generated from chunk f3b66d57e803..."
+  },
+  {
+    "query_id": "q033",
+    "query": "What does RBI A.P. (DIR Series) Circular No. 81 dated March 3, 2015 specify regarding foreign exchange regulations, and how does the concept of \"authorized dealer\" defined therein relate to the broader regulatory framework for cross-border capital account transactions under FEMA?",
+    "query_type": "hybrid",
+    "relevant_chunk_ids": [
+      "4a65bd96e3d2829182b8d6342358cec3d03b70b8fc3217b3d4ba4886fa227de0"
+    ],
+    "relevant_circular_numbers": [
+      "RBI/2014-2015/484 A.P. (DIR Series) Circular No.  81"
+    ],
+    "notes": "Generated from chunk 4a65bd96e3d2..."
+  },
+  {
+    "query_id": "q034",
+    "query": "What are the prudential norms and regulatory requirements specified in RBI circular DNBR.(PD-MGC).C.C.No.01/23.11.001/2015-16 dated July 1, 2015, and how do the mortgage guarantee company guidelines define the concept of \"mortgage guarantee\" and its risk mitigation function within the broader framework of credit risk management for housing finance?",
+    "query_type": "hybrid",
+    "relevant_chunk_ids": [
+      "c17e23edf0f18a677765fded482330984ea731107edde252ec619ec7dd6d0285"
+    ],
+    "relevant_circular_numbers": [
+      "RBI/2015-2016/71 DNBR.(PD-MGC).C.C.No.01/23.11.001/2015-16"
+    ],
+    "notes": "Generated from chunk c17e23edf0f1..."
+  },
+  {
+    "query_id": "q035",
+    "query": "**Query:** \"What does RBI circular FMOD.MAOG. No.107/01.18.001/2014-15 dated March 4, 2015 specify regarding open market operations or money market regulations, and how does the concept of 'liquidity adjustment facility' function within the broader framework of RBI's monetary policy transmission mechanism?\"",
+    "query_type": "hybrid",
+    "relevant_chunk_ids": [
+      "4c4a8978643fca7f1df34481da645cc960f5775ab05517120de1bfe57940ccad"
+    ],
+    "relevant_circular_numbers": [
+      "RBI/2014-2015/488 FMOD.MAOG. No.107 /01.18.001/2014-15"
+    ],
+    "notes": "Generated from chunk 4c4a8978643f..."
+  },
+  {
+    "query_id": "q036",
+    "query": "**Query:** \"In RBI circular DNBR (PD) CC.No.058/03.10.119/2015-16 issued on July 1, 2015, what regulatory framework is established for NBFCs, and how does the concept of 'systemic importance' determine the differential compliance obligations imposed on deposit-taking versus non-deposit-taking non-banking financial companies under this master direction?\"",
+    "query_type": "hybrid",
+    "relevant_chunk_ids": [
+      "9598ffd81142b3c894a709e4d2e26ea4437fed450c1370db32c44ead82040c1b"
+    ],
+    "relevant_circular_numbers": [
+      "RBI/2015-2016/17 DNBR (PD) CC.No.058/03.10.119/2015-16"
+    ],
+    "notes": "Generated from chunk 9598ffd81142..."
+  },
+  {
+    "query_id": "q037",
+    "query": "**Query:** In RBI circular DCBR.CO.BPD.(PCB).Cir.No.6/16.05.000/2014-15 dated March 2, 2015, what regulatory requirements are specified for Primary (Urban) Co-operative Banks, and how does the concept of \"fit and proper\" criteria apply to the directors of these banks in terms of governance and accountability standards?",
+    "query_type": "hybrid",
+    "relevant_chunk_ids": [
+      "904c413bdedb04c9f55074dc6c7f4545a97daf7e9fa1c3fc5f4f406fc5469e9c"
+    ],
+    "relevant_circular_numbers": [
+      "RBI/2014-2015/482 DCBR.CO.BPD. (PCB).Cir.No.6/16.05.000/2014-15"
+    ],
+    "notes": "Generated from chunk 904c413bdedb..."
+  },
+  {
+    "query_id": "q038",
+    "query": "What does RBI A.P. (DIR Series) Circular No. 32 dated November 30, 2015 specify about foreign exchange regulations, and how does the concept of \"deemed exports\" apply to the directional guidelines outlined in this circular for resident entities conducting cross-border transactions?",
+    "query_type": "hybrid",
+    "relevant_chunk_ids": [
+      "946a74c09b1b2586326feb6cdea66d1633af6c5b00b746108bdd01cb95df1328"
+    ],
+    "relevant_circular_numbers": [
+      "RBI/2015-2016/255 A.P. (DIR Series) Circular No.32"
+    ],
+    "notes": "Generated from chunk 946a74c09b1b..."
+  },
+  {
+    "query_id": "q039",
+    "query": "What does RBI A.P.(DIR Series) Circular No. 82 dated March 9, 2015 specify about foreign exchange regulations, and how does the concept of \"deemed exports\" apply to the directions outlined in this circular for resident entities engaging in cross-border transactions?",
+    "query_type": "hybrid",
+    "relevant_chunk_ids": [
+      "bec009715db5093ad7ccaca336e0ed4a33e887d89ff96237f9f45b795116339f"
+    ],
+    "relevant_circular_numbers": [
+      "RBI/2014-2015/492 A.P.(DIR Series) Circular No.  82"
+    ],
+    "notes": "Generated from chunk bec009715db5..."
+  },
+  {
+    "query_id": "q040",
+    "query": "**Query:** In RBI circular DBR.Dir.BC.No.62/04.02.001/2015-16 dated December 4, 2015, what regulatory concept governs the treatment of wilful defaulters, and how does the definition of \"wilful default\" under this circular differ from a borrower who is merely unable to repay due to genuine financial distress?",
+    "query_type": "hybrid",
+    "relevant_chunk_ids": [
+      "a766cf314b58210b5fba5412a0c5d938fdf2f5c855c46679a0b7ba33ae11f7c8"
+    ],
+    "relevant_circular_numbers": [
+      "RBI/2015-2016/259 DBR.Dir.BC.No.62/04.02.001/2015-16"
+    ],
+    "notes": "Generated from chunk a766cf314b58..."
+  },
+  {
+    "query_id": "q041",
+    "query": "**Query:** Find RBI circular IDMD.CDD.No.939/14.04.050/2015-16 dated October 30, 2015, and explain what regulatory framework or instrument it establishes, including the meaning of \"IDMD\" as a department designation and how the circular number format reflects RBI's internal classification system for debt market and depository operations.",
+    "query_type": "hybrid",
+    "relevant_chunk_ids": [
+      "2610a064f6f24374ee03ae9adbac1f413044ac2127764e4228b5521bcfb26295"
+    ],
+    "relevant_circular_numbers": [
+      "RBI/2015-2016/218 IDMD.CDD.No.939/14.04.050/2015-16"
+    ],
+    "notes": "Generated from chunk 2610a064f6f2..."
+  },
+  {
+    "query_id": "q042",
+    "query": "What SEBI circular or regulatory framework governs the methodology of clubbing shares across multiple demat accounts using PAN for buyback entitlement categorization, and what is the underlying rationale for preventing shareholders from artificially splitting holdings to qualify under the Small Shareholder category?",
+    "query_type": "hybrid",
+    "relevant_chunk_ids": [
+      "d66e5aa7765d6bcdcebc316a98652ea557972290b0839085a5e7e37c7afc47fc"
+    ],
+    "relevant_circular_numbers": [],
+    "notes": "Generated from chunk d66e5aa7765d..."
+  },
+  {
+    "query_id": "q043",
+    "query": "Which SEBI circular or guidance note specifies the eligibility criteria and disclosure requirements under Section 68 and Section 70 of the Companies Act read with Clause (xi) of Schedule I of SEBI Buyback Regulations, and what does \"solely to enable\" mean in the context of a fairness opinion obtained for a share buyback, particularly regarding its permissible use in the explanatory statement, public announcement, and letter of offer filed with SEBI",
+    "query_type": "hybrid",
+    "relevant_chunk_ids": [
+      "9ba179593ab6234e8075d9f672b43cf9282c826c18cd6f9df61ddddeac69eb2a"
+    ],
+    "relevant_circular_numbers": [],
+    "notes": "Generated from chunk 9ba179593ab6..."
+  },
+  {
+    "query_id": "q044",
+    "query": "**Query:** In RBI circular DBR.No.BP.BC.1/21.06.201/2015-16 dated July 1, 2015, what prudential norms are prescribed for capital adequacy, and how does the concept of \"risk-weighted assets\" used in this circular align with the Basel III framework's approach to measuring credit risk exposure for off-balance sheet items?",
+    "query_type": "hybrid",
+    "relevant_chunk_ids": [
+      "362f57143aed88db5a97f748399e6050b6d51caa3f2839b224fcf5d86514dc38"
+    ],
+    "relevant_circular_numbers": [
+      "RBI/2015-2016/58 DBR.No.BP.BC.1/21.06.201/2015-16"
+    ],
+    "notes": "Generated from chunk 362f57143aed..."
+  },
+  {
+    "query_id": "q045",
+    "query": "What are the specific prudential guidelines outlined in RBI Master Circular No. 4/2015-16 (RBI/2015-2016/79) regarding capital adequacy requirements, and how does the concept of \"risk-weighted assets\" as defined in this circular differ from the broader Basel III framework's interpretation of credit risk mitigation?",
+    "query_type": "hybrid",
+    "relevant_chunk_ids": [
+      "1433fd2a012c56cb9a2c42809cb40a80a7ec723c836012005888cb7452ba53a5"
+    ],
+    "relevant_circular_numbers": [
+      "RBI/2015-2016/79 Master Circular No. 4/2015-16"
+    ],
+    "notes": "Generated from chunk 1433fd2a012c..."
+  },
+  {
+    "query_id": "q046",
+    "query": "**Query:** In RBI circular DBR.No.BP.BC.2/21.04.048/2015-16 dated July 1, 2015, what prudential norms are prescribed for banks regarding capital adequacy, and how does the concept of \"risk-weighted assets\" as defined in that circular relate to the broader Basel III framework's approach to credit risk mitigation?",
+    "query_type": "hybrid",
+    "relevant_chunk_ids": [
+      "802c07635656220f2edfa6ea3fd0f27cd28aef93c4139f5c9ff82cca4f8924d2"
+    ],
+    "relevant_circular_numbers": [
+      "RBI/2015-2016/101 DBR.No.BP.BC.2/21.04.048/2015-16"
+    ],
+    "notes": "Generated from chunk 802c07635656..."
+  },
+  {
+    "query_id": "q047",
+    "query": "What does RBI circular DBR.AML.No.1223/14.06.001/2015-16 dated July 22, 2015 specify regarding Anti-Money Laundering (AML) compliance requirements, and how does the concept of \"Know Your Customer\" (KYC) norms defined therein apply to the risk categorization of customers by scheduled commercial banks?",
+    "query_type": "hybrid",
+    "relevant_chunk_ids": [
+      "439a572c1940f37fb8919b5db4abbd9a430e0e22596ef0846abfe8c0a902b482"
+    ],
+    "relevant_circular_numbers": [
+      "RBI/2015-2016/136 DBR.AML.No.1223/14.06.001/2015-16"
+    ],
+    "notes": "Generated from chunk 439a572c1940..."
+  },
+  {
+    "query_id": "q048",
+    "query": "**Query:** In RBI circular DNBR (PD) CC.No. 064/03.10.001/2015-16 dated July 2, 2015, what regulatory framework is established, and how does the concept of \"systemically important non-deposit taking NBFC\" differ from a regular NBFC in terms of prudential norms and capital adequacy requirements?",
+    "query_type": "hybrid",
+    "relevant_chunk_ids": [
+      "674dc9459fece50d5fb7125ef0983a177e65c21255d4815b2ddbc4cd434e6270"
+    ],
+    "relevant_circular_numbers": [
+      "RBI/2015-2016/114 DNBR (PD) CC.No. 064/03.10.001/2015-16"
+    ],
+    "notes": "Generated from chunk 674dc9459fec..."
+  },
+  {
+    "query_id": "q049",
+    "query": "What SEBI circular or guidance defines the scope of \"material information\" that must be disclosed under Regulation 24(i)(a) of the Buyback Regulations, and how does this standard of materiality differ from the general disclosure obligations under other SEBI regulations governing listed companies?",
+    "query_type": "hybrid",
+    "relevant_chunk_ids": [
+      "5d6c34fa6bbe93c89212fe9a443e650e67034c22c16e6ae978ca31bc5ba14d91"
+    ],
+    "relevant_circular_numbers": [],
+    "notes": "Generated from chunk 5d6c34fa6bbe..."
+  },
+  {
+    "query_id": "q050",
+    "query": "What are the specific guidelines outlined in RBI Master Circular No. 14/2015-16 (RBI/2015-2016/83) regarding the regulatory requirements, and how does the concept of \"prudential norms\" as defined in this circular apply to risk management practices for financial institutions?",
+    "query_type": "hybrid",
+    "relevant_chunk_ids": [
+      "0ead5f0a7155e3f0e43048a88c0b4111cc0339ac7c4be2766cfaebe4934ffa4f"
+    ],
+    "relevant_circular_numbers": [
+      "RBI/2015-2016/83 Master Circular No.14/2015-16"
+    ],
+    "notes": "Generated from chunk 0ead5f0a7155..."
+  }
+]

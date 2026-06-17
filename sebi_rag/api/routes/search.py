@@ -1,3 +1,5 @@
+import asyncio
+import concurrent.futures
 import time
 
 from fastapi import APIRouter
@@ -12,6 +14,8 @@ from retrieval.reranker import get_reranker
 from retrieval.rrf import reciprocal_rank_fusion
 
 router = APIRouter()
+
+_thread_pool = concurrent.futures.ThreadPoolExecutor(max_workers=4)
 
 
 def _to_chunk_result(doc: dict) -> ChunkResult:
@@ -32,32 +36,52 @@ def _to_chunk_result(doc: dict) -> ChunkResult:
     )
 
 
+def _run_bm25(query: str, filters: dict | None, top_k: int) -> tuple[list[dict], int]:
+    t0 = time.perf_counter()
+    results = bm25_retriever.search(
+        get_es_client(), query, top_k=top_k, filters=filters
+    )
+    return results, int((time.perf_counter() - t0) * 1000)
+
+
+def _run_vector(query: str, filters: dict | None, top_k: int) -> tuple[list[dict], int]:
+    t0 = time.perf_counter()
+    results = vector_retriever.search(
+        get_qdrant_client(), get_embedder(), query,
+        top_k=top_k, filters=filters,
+    )
+    return results, int((time.perf_counter() - t0) * 1000)
+
+
 @router.post("/search", response_model=SearchResponse)
 async def search_regulations(req: QueryRequest):
     latency = {}
     results = []
+    loop = asyncio.get_event_loop()
 
-    if req.mode in ("sparse", "hybrid"):
-        t0 = time.perf_counter()
-        bm25_results = bm25_retriever.search(
-            get_es_client(), req.query, top_k=settings.bm25_top_k, filters=req.filters
-        )
-        latency["bm25"] = int((time.perf_counter() - t0) * 1000)
-    else:
-        bm25_results = []
-
-    if req.mode in ("dense", "hybrid"):
-        t0 = time.perf_counter()
-        vec_results = vector_retriever.search(
-            get_qdrant_client(), get_embedder(), req.query,
-            top_k=settings.vector_top_k, filters=req.filters,
-        )
-        latency["vector"] = int((time.perf_counter() - t0) * 1000)
-    else:
-        vec_results = []
+    bm25_results = []
+    vec_results = []
 
     if req.mode == "hybrid":
-        fused = reciprocal_rank_fusion(bm25_results, vec_results, k=settings.rrf_k, top_k=20)
+        bm25_future = loop.run_in_executor(
+            _thread_pool, _run_bm25, req.query, req.filters, settings.bm25_top_k
+        )
+        vec_future = loop.run_in_executor(
+            _thread_pool, _run_vector, req.query, req.filters, settings.vector_top_k
+        )
+        bm25_results, latency["bm25"] = await bm25_future
+        vec_results, latency["vector"] = await vec_future
+    elif req.mode == "sparse":
+        bm25_results, latency["bm25"] = await loop.run_in_executor(
+            _thread_pool, _run_bm25, req.query, req.filters, settings.bm25_top_k
+        )
+    else:
+        vec_results, latency["vector"] = await loop.run_in_executor(
+            _thread_pool, _run_vector, req.query, req.filters, settings.vector_top_k
+        )
+
+    if req.mode == "hybrid":
+        fused = reciprocal_rank_fusion(bm25_results, vec_results, k=settings.rrf_k, top_k=10)
         t0 = time.perf_counter()
         reranker = get_reranker()
         results = reranker.rerank(req.query, fused, top_k=req.top_k)

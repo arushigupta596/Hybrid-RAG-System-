@@ -49,6 +49,8 @@ Evaluated on 50 LLM-generated test queries (15 sparse, 15 dense, 20 hybrid) with
 
 ### Overall Metrics
 
+![Retrieval Metrics by Mode](data/evaluation/results/metrics_by_mode.png)
+
 | Mode | NDCG@10 | MRR@10 | Recall@5 | Avg Latency |
 |------|---------|--------|----------|-------------|
 | Sparse | 0.710 | 0.694 | 0.740 | 638ms |
@@ -56,6 +58,8 @@ Evaluated on 50 LLM-generated test queries (15 sparse, 15 dense, 20 hybrid) with
 | Hybrid | 0.681 | 0.669 | 0.700 | **413ms** |
 
 ### NDCG@10 by Query Type
+
+![NDCG@10 Heatmap: Query Type x Retrieval Mode](data/evaluation/results/heatmap_querytype_mode.png)
 
 | Query Type | Sparse Mode | Dense Mode | Hybrid Mode |
 |------------|-------------|------------|-------------|
